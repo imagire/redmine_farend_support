@@ -1,6 +1,11 @@
 module RemdineFarendSupport
   class Hooks < Redmine::Hook::ViewListener
 
+    HOOKS_DIR = 'redmine_farend_support/hooks'
+
+    render_on :view_layouts_base_html_head,
+      :partial => File.join(HOOKS_DIR, '/view_layouts_base_html_head')
+
     render_on :view_account_login_bottom,
       :partial => 'redmine_farend_support/hooks/view_account_login_bottom'
 
