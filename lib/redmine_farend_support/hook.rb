@@ -7,12 +7,12 @@ module RemdineFarendSupport
       :partial => File.join(HOOKS_DIR, '/view_layouts_base_html_head')
 
     render_on :view_account_login_bottom,
-      :partial => 'redmine_farend_support/hooks/view_account_login_bottom'
+      :partial => File.join(HOOKS_DIR, 'view_account_login_bottom')
 
     def view_layouts_base_body_bottom(context = {})
       partial_path = 
-        File.join('redmine_farend_support',
-                  'hooks/view_layouts_base_body_bottom',
+        File.join(HOOKS_DIR,
+                  'view_layouts_base_body_bottom',
                   "#{context[:controller].controller_name}",
                   "#{context[:controller].action_name}")
 
