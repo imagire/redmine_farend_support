@@ -11,3 +11,18 @@
   padding: 8px;
   margin: 10px 0;
 }
+
+.support-guidance-login {
+  text-align: center;
+  font-size: 15px;
+  background-color: #d9edf7;
+  border: 1px solid #bce8f1;
+  border-radius: 6px;
+  color: #31708f;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.support-guidance-login button {
+  font-size: 15px;
+}
