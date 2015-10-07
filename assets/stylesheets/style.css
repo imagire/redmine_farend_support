@@ -1,0 +1,13 @@
+#header {
+  background: #6285d9;
+  background: linear-gradient(#6285d9, #4a67c0);
+}
+
+.support-guidance {
+  background-color: #d9edf7;
+  border: 1px solid #bce8f1;
+  border-radius: 6px;
+  color: #31708f;
+  padding: 8px;
+  margin: 10px 0;
+}
